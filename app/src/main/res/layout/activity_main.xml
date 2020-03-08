@@ -26,7 +26,20 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/main_recycler_view" />
+        app:layout_constraintTop_toTopOf="@+id/main_recycler_view">
+
+        <TextView
+            android:id="@+id/topview_textview"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:id="@+id/topview_spinner"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="end"/>
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_recycler_view"
