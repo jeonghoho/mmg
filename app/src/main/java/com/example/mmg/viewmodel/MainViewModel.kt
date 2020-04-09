@@ -1,4 +1,4 @@
-package com.example.mmg
+package com.example.mmg.viewmodel
 
 import androidx.lifecycle.ViewModel
 import java.util.*
