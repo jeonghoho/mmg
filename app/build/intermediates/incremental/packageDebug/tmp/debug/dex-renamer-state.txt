@@ -1,4 +1,0 @@
-#Sun Mar 08 23:42:58 KST 2020
-base.0=/Users/kakao/Desktop/kakaotalk/mmg/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
